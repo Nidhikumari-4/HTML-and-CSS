@@ -5,3 +5,4 @@
 ### 3. [Social Media Icon](./03-Social-Media-Icon/index.html)
 ### 4. [Tic Tac Toe](./04-Tic-Tac-Toe/index.html)
 ### 5. [Chess Board](./05-Chess-Board/index.html)
+### 6. [Order summary card](./06-Order summary card/index.html)
