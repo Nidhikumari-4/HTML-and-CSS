@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- *********CALENDER********** -->
+        <div class="calender">
+            <!-- year -->
+            <div class="year">2022</div>
+
+            <!-- triangles beside year -->
+            <div class="tri-left"></div>
+            <div class="tri-right"></div>
+
+            <!-- month -->
+            <div class="months">
+                <span class="month-color">JAN</span>
+                <span class="month-hover">FEB</span>
+                <span class="month-hover">MAR</span>
+                <span class="month-hover">APR</span>
+                <span class="month-hover">MAY</span>
+                <span class="month-hover">JUNE</span>
+                <span class="month-hover">JULY</span>
+                <span class="month-hover">AUG</span>
+                <span class="month-hover">SEP</span>
+                <span class="month-hover">OCT</span>
+                <span class="month-hover">NOV</span>
+                <span class="month-hover">DEC</span>
+            </div>
+            
+            <!-- line after month -->
+            <hr class="month-line">
+
+            <!-- Days -->
+            <div class="days">SUN MON TUE WED THU FRI SAT</div>
+
+            <!-- month dates -->
+            <div class="month-dates">
+                <!-- first week -->
+                <div class="first-week"><span class="grey">26 27 28 29 30 31 </span>01</div>
+                <!-- second week -->
+                <div class="second-week">02 03 04 05 06 07 08</div>
+                <!-- third week -->
+                <div class="third-week">09 10 11 12 13 14 15</div>
+                <!-- forth week -->
+                <div class="forth-week"><strong class="white">16</strong> 17 18 19 20 21 22</div>
+                <!-- fifth week -->
+                <div class="fifth-week">23 24 25 26 27 28 29</div>
+                <!-- sixth week -->
+                <div class="sixth-week">30 31 <span class="grey">01 02 03 04 05 </span></div>
+            </div>
+            
+            <!-- EVENT INDICATOR -->
+            <div class="event-indicator"></div>
+            <div class="active-day"></div>
+            <div class="event-indicator-two"></div>
+        </div> <!-- calender-end -->
+
+        <!-- CALENDER LEFT SIDE -->
+        <div class="calender-left">
+
+            <div class="today-date">15</div>
+            <div class="today-day">SUNDAY</div>
+            <div class="current-events">Current Events
+                <br>
+                <ul>
+                    <li>Make Calendar UI</li>
+                </ul>
+                <span class="post-event">See post Event</span>
+            </div>
+
+            <div class="create-event">Create an Event</div>
+            <hr class="event-line">
+            <div class="add-event"><span class="add">+</span></div>
+
+        </div><!-- calendar-left-end -->
+
+    </div><!-- container-end -->
+</body>
+</html>
