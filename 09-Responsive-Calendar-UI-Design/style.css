@@ -23,7 +23,6 @@ body::before {
     filter: blur(10px);
 }
 
-
 .calendar{
     position: relative;
     background-color: #fff;
