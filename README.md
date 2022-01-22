@@ -9,3 +9,4 @@
 ### 8. [Calandar Design](./08-Calandar-Design/index.html)
 ### 9. [Responsive Calendar UI Design](./09-Responsive-Calendar-UI-Design/index.html)
 ### 10. [Awesome-Accordion-Menu](./10-Awesome-Accordion-Menu/index.html)
+### 11. [Clock](./11-Clock/index.html)
