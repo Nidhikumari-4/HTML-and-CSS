@@ -51,10 +51,10 @@ body{
     top: 36px;
 }
 .tri-left:hover{
-    border-right: 10px solid#2ECC71;
+    border-right: 10px solid #2ECC71;
 }
 .tri-right:hover{
-    border-left: 10px solid#2ECC71;
+    border-left: 10px solid #2ECC71;
 }
 .months{
     color: #AAAAAA;
